@@ -1,7 +1,7 @@
 
 body{
     margin:0;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 header{
     display:flex;
@@ -13,7 +13,8 @@ header{
     /*Header Nav*/
 .header__logo{
     font-size: 24px;
-    color:#f9faf8
+    color:#f9faf8;
+    font-weight: 900;
 }
 .header__nav{
     display: flex;
@@ -175,7 +176,7 @@ h2{
     
 
 }
-.section2__container-text{
+.section2__container--text{
     display: flex;
     flex-direction: column;
 }
@@ -206,10 +207,10 @@ footer{
     background-color: #1f2937;
     margin: 0;
     text-align: center;
-    padding: 30px;
+    padding: 25px;
 }
 .footer__text{
-    font-size: 20px;
+    font-size: 18px;
     color:#fff;
 }
 
